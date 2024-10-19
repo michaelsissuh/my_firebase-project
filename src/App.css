@@ -1,0 +1,107 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9cae5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the form */
+.sales-form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sales-form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d1332ed3;
+}
+
+.sales-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sales-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.sales-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sales-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.sales-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #d8cd90;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sales-form button:hover {
+  background-color: #91ad7a;
+}
+
+
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f1f1f1;
+}
+
+.data-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.data-table tfoot tr {
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: #cf6c76;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #ce7881;
+}
